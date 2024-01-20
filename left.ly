@@ -23,22 +23,35 @@ left = \absolute {
 
   \bar "||"
 
-  \repeat unfold 4 {
-    ges,4-- <ges bes>-. q-. |
+  \repeat volta 2 {
+    \repeat unfold 3 {
+      ges,4-- <ges bes>-. q-. |
+      aes,-- <aes c'>-. q-. |
+      bes,-- <bes des'>-. q-. |
+      f,-- <f aes>-. q-. |
+    }
+
+
+
+
+
+
+
+
+
+
+    ges,4-- <ges bes>-. q-. | % m.22
     aes,-- <aes c'>-. q-. |
     bes,-- <bes des'>-. q-. |
-    f,-- <f aes>-. q-. |
+    \alternative {
+      { f,-- <f aes>-. q-. }
+      { f, <f aes> q }
+    }|
+
+
+
+
   }
-
-
-
-
-
-
-
-
-
-
 
 
 

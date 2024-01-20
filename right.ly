@@ -23,26 +23,32 @@ right = \absolute {
 
   \bar "||"
 
+  \repeat volta 2 {
 
-  aes'2.\) |
-  r4 f'4.\( bes'8 |
-  aes'2.\) |
-  r4 f'4.\( ges'8 |
+    aes'2.\) |
+    r4 f'4.\( bes'8 |
+    aes'2.\) |
+    r4 f'4.\( ges'8 |
 
-  aes'2.\) |
-  r4 bes'4.\( c''16 des'' |
-  c''2 bes'4 |
-  aes' ees'4. ges'8 |
+    aes'2.\) |
+    r4 bes'4.\( c''16 des'' |
+    c''2 bes'4 |
+    aes' ees'4. ges'8 |
 
-  f'2.\) |
-  r4 ees'4.\( ges'8 |
-  f'2.\) |
-  r4 ees'4\( f'8 ges'|
+    f'2.\) |
+    r4 ees'4.\( ges'8 |
+    f'2.\) |
+    r4 ees'4\( f'8 ges'|
 
-  aes'2 ges'4 |
-  f' ees'4. ges'8 |
-  f'2.\) |
-  r2. |
+    aes'2 ges'4 |
+    f' ees'4. ges'8 |
+    f'2.\) |
+    \alternative {
+      { r4 f'4.-"TODO: phrasing slur" ges'8 }
+      { r2. }
+    } |
+
+  }
 
 
   <des'' ees'' aes'' des'''>2\( <c'' ees'' aes'' c'''>4 ~ |
