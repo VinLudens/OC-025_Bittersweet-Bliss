@@ -21,7 +21,7 @@ left = \absolute {
   <aes,, aes,> |
   r2. |
 
-  \bar "||"
+  % \bar "||"
 
   \repeat volta 2 {
     \repeat unfold 3 {

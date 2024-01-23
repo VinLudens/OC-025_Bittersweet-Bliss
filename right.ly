@@ -19,55 +19,55 @@ right = \absolute {
   <ges' bes' des'' ges''> q q |
 
   <aes' bes' des'' aes''>2.\fermata |
-  r4 f'4.\( ges'8 |
+  r4 f'4. ges'8 |
 
-  \bar "||"
+  % \bar "||"
 
   \repeat volta 2 {
 
-    aes'2.\) |
-    r4 f'4.\( bes'8 |
-    aes'2.\) |
-    r4 f'4.\( ges'8 |
+    aes'2. |
+    r4 f'4. bes'8 |
+    aes'2. |
+    r4 f'4. ges'8 |
 
-    aes'2.\) |
-    r4 bes'4.\( c''16 des'' |
+    aes'2. |
+    r4 bes'4. c''16 des'' |
     c''2 bes'4 |
     aes' ees'4. ges'8 |
 
-    f'2.\) |
-    r4 ees'4.\( ges'8 |
-    f'2.\) |
-    r4 ees'4\( f'8 ges'|
+    f'2. |
+    r4 ees'4. ges'8 |
+    f'2. |
+    r4 ees'4 f'8 ges' |
 
     aes'2 ges'4 |
     f' ees'4. ges'8 |
-    f'2.\) |
+    f'2. |
     \alternative {
-      { r4 f'4.-"TODO: phrasing slur" ges'8 }
-      { r2. }
-    } |
+      { r4 f'4. ges'8 | }
+      { r2. | }
+    }
 
   }
 
 
-  <des'' ees'' aes'' des'''>2\( <c'' ees'' aes'' c'''>4 ~ |
+  <des'' ees'' aes'' des'''>2 <c'' ees'' aes'' c'''>4 ~ |
   4 <aes' aes''>4. <ges' ges''>8 |
-  <f' f''>2\) r4 |
+  <f' f''>2 r4 |
 
-  <des'' ees'' aes'' des'''>2\( <c'' ees'' aes'' c'''>4 ~ |
+  <des'' ees'' aes'' des'''>2 <c'' ees'' aes'' c'''>4 ~ |
   q <aes' aes''>4. <ges' ges''>8 |
   <f' f''>2 <ees' ees''>4 ~ |
   4 <f' f''>4 <ges' ges''> |
 
   <des'' ees'' aes'' des'''>2 <c'' ees'' aes'' c'''>4 ~ |
   4 <des'' des'''>4. <ees'' ees'''>8 |
-  <f'' aes'' des''' f'''>2\) r4 |
+  <f'' aes'' des''' f'''>2 r4 |
 
-  q2\( <ees'' aes'' des''' ees'''>4 ~ |
+  q2 <ees'' aes'' des''' ees'''>4 ~ |
   4 <des'' des'''>4. <c'' c'''>8 |
   <bes' bes''>2 <aes' aes''>4 |
-  <des'' des'''>2.\) |
+  <des'' des'''>2. |
 
   % lmi: alt=11:ces+
   <des'' ees'' ges'' des'''>2. |
