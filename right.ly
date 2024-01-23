@@ -69,4 +69,36 @@ right = \absolute {
   <bes' bes''>2 <aes' aes''>4 |
   <des'' des'''>2.\) |
 
+  % lmi: alt=11:ces+
+  <des'' ees'' ges'' des'''>2. |
+  s2. |
+  s2. |
+  s2. |
+
+  <des'' ees'' ges'' des'''>2. |
+  s2. |
+  s2. |
+  s2. |
+
+  q2 <ces'' ees'' ges'' ces'''>4 |
+  s2. |
+  s2. |
+  s2. |
+
+  <ces'' des'' ges'' ces'''>2 <bes' des'' ges'' bes''>4 |
+  s2. |
+  s2. |
+  s2. |
+
+  \repeat unfold 2 {
+    <bes' ces'' ees'' aes'' bes''>2 <aes' ces'' ees'' aes''>4 ~ |
+    4 <ges' ges''>2 |
+    <f' f''>2 <ees' ees''>4 ~ |
+    4 <f' f''>4 <ges' ges''> |
+  }
+
+  <bes' ces'' ees'' aes'' bes''>2 <aes' ces'' ees'' aes''>4 ~ |
+  2 <ges' ges''>4 |
+  <des'' des'''>2-. <f' f''>4 ~ |
+  2 <ges' ges''>4 |
 }
