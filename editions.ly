@@ -21,6 +21,7 @@
 \editionMod slurs 15 0/4 music.Voice.A \)
 
 \editionMod slurs 16 1/4 music.Voice.A \(
+\editionMod tweaks 16 1/4 music.Voice.A \once\override PhrasingSlur.positions = #'(0.5 . 2.3)
 
 \editionMod slurs 19 0/4 music.Voice.A \)
 
@@ -32,7 +33,9 @@
 
 \editionMod slurs 25 0/4 music.Voice.A \)
 
-\editionMod slurs 26 1/4 music.Voice.A -"TODO: phrasing slur"
+\editionMod slurs 26 5/8 music.Voice.A \)
+\editionMod slurs 26 2/8 music.Voice.A \(
+\editionMod tweaks 26 2/8 music.Voice.A \shape #'((0 . 0) (0.5 . -0.3) (1 . -0.3) (2 . 0)) PhrasingSlur
 
 \editionMod slurs 28 0/4 music.Voice.A \(
 
@@ -51,16 +54,23 @@
 \editionMod slurs 63 5/4 music.Voice.A \)
 
 \editionMod slurs 64 0/4 music.Voice.A \(
-\editionMod slurs 64 0/4 music.Voice.A -"TODO: pharsing slur"
-\editionMod slurs 65 5/4 music.Voice.A \)
-\editionMod slurs 66 1/2 music.Voice.A \(
-\editionMod slurs 67 2/2 music.Voice.A \)
-\editionMod slurs 68 1/2 music.Voice.A \(
-\editionMod slurs 69 2/2 music.Voice.A \)
-\editionMod slurs 70 1/2 music.Voice.A \(
-\editionMod slurs 79 0/2 music.Voice.A \)
+\editionMod tweaks 64 0/4 music.Voice.A \shape #'((-1 . 1) (0 . 0) (0 . 0) (0 . 0)) PhrasingSlur
 
+\editionMod slurs 65 5/4 music.Voice.A \)
+
+\editionMod slurs 66 1/2 music.Voice.A \(
+\editionMod tweaks 66 1/2 music.Voice.A \once\override PhrasingSlur.positions = #'(6 . 4)
+
+\editionMod slurs 67 2/2 music.Voice.A \)
+
+\editionMod slurs 68 1/2 music.Voice.A \(
+\editionMod tweaks 68 1/2 music.Voice.A \once\override PhrasingSlur.positions = #'(6 . 4)
 \editionMod tweaks 68 0/4 music.Voice.A \ottava 1
 
+\editionMod slurs 69 2/2 music.Voice.A \)
+
+\editionMod slurs 70 1/2 music.Voice.A \(
 
 \editionMod tweaks 73 0/4 music.Voice.A \ottava 0
+
+\editionMod slurs 79 0/2 music.Voice.A \)
