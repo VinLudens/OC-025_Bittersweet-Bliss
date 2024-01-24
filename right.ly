@@ -7,6 +7,7 @@ right = \absolute {
   \tempo "Maestoso" 2. = 88
 
   \repeat segno 2 {
+    \time 3/4
 
     <aes bes des'>2. |
     q |
@@ -92,10 +93,11 @@ right = \absolute {
     s2. |
     s2. |
 
+    \time 6/4
     \repeat unfold 2 {
-      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>4 ~ |
+      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>4 ~
       4 <ges' ges''>2 |
-      <f' f''>2 <ees' ees''>4 ~ |
+      <f' f''>2 <ees' ees''>4 ~
       4 <f' f''>4 <ges' ges''> |
     }
 
@@ -103,20 +105,20 @@ right = \absolute {
 
   \alternative {
     {
-      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>4 ~ |
+      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>4 ~
       2 <ges' ges''>4 |
-      <des'' des'''>2-_ <f' f''>4 ~ |
+      <des'' des'''>2-_ <f' f''>4 ~
       2 <ges' ges''>4 |
     }
     {
-      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>4 ~ |
+      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>4 ~
       4 <ges' ges''>2 |
-      <f' aes' des'' f''>2 <ees' ees''>4 ~ |
+      <f' aes' des'' f''>2 <ees' ees''>4 ~
       4 <des' des''>2 |
     }
   }
 
-  \time 6/4
+  % \time 6/4
 
   \voiceOne
   r2 <ces'' ees'' bes''> <ces'' ees'' aes''> |

@@ -7,6 +7,7 @@ left = \absolute {
 
 
   \repeat segno 2 {
+    \time 3/4
 
     <aes, ees ges>2.\arpeggio  |
     q |
@@ -92,10 +93,11 @@ left = \absolute {
     bes,4 \change Staff = "right" <des' f'> q | \change Staff = "left"
     bes,4 \change Staff = "right" <f' aes'> q | \change Staff = "left"
 
+    \time 6/4
     \repeat unfold 2 {
-      aes,4-> ees aes |
+      aes,4-> ees aes
       ces' aes ees |
-      des,-> aes, des |
+      des,-> aes, des
       f des aes, |
     }
 
@@ -103,20 +105,20 @@ left = \absolute {
 
   \alternative {
     {
-      aes,4-> ees aes |
+      aes,4-> ees aes
       ces' aes ees |
-      <des, des>4-. r2 |
+      <des, des>4-. r2
       r2. |
     }
     {
-      aes,4-> ees aes |
+      aes,4-> ees aes
       ces' aes ees |
-      des,4-> aes, des |
+      des,4-> aes, des
       f des aes, |
     }
   }
 
-  \time 6/4
+  % \time 6/4
 
 
   <aes, aes>2-> \change Staff = "right" \voiceTwo <ees' aes'> <des' ges'> | \change Staff = "left" \oneVoice
