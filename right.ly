@@ -95,26 +95,20 @@ right = \absolute {
 
     \time 6/4
     \repeat unfold 2 {
-      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>4 ~
-      4 <ges' ges''>2 |
-      <f' f''>2 <ees' ees''>4 ~
-      4 <f' f''>4 <ges' ges''> |
+      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''> <ges' ges''> |
+      <f' f''>2 <ees' ees''> <f' f''>4 <ges' ges''> |
     }
 
   }
 
   \alternative {
     {
-      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>4 ~
-      2 <ges' ges''>4 |
-      <des'' des'''>2-_ <f' f''>4 ~
-      2 <ges' ges''>4 |
+      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>2. <ges' ges''>4 |
+      <des'' des'''>2-_ <f' f''>2. <ges' ges''>4 |
     }
     {
-      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>4 ~
-      4 <ges' ges''>2 |
-      <f' aes' des'' f''>2 <ees' ees''>4 ~
-      4 <des' des''>2 |
+      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''> <ges' ges''> |
+      <f' aes' des'' f''>2 <ees' ees''> <des' des''> |
     }
   }
 

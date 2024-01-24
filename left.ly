@@ -95,26 +95,20 @@ left = \absolute {
 
     \time 6/4
     \repeat unfold 2 {
-      aes,4-> ees aes
-      ces' aes ees |
-      des,-> aes, des
-      f des aes, |
+      aes,4-> ees aes ces' aes ees |
+      des,-> aes, des f des aes, |
     }
 
   }
 
   \alternative {
     {
-      aes,4-> ees aes
-      ces' aes ees |
-      <des, des>4-. r2
-      r2. |
+      aes,4-> ees aes ces' aes ees |
+      <des, des>4-. r4 r2 r |
     }
     {
-      aes,4-> ees aes
-      ces' aes ees |
-      des,4-> aes, des
-      f des aes, |
+      aes,4-> ees aes ces' aes ees |
+      des,4-> aes, des f des aes, |
     }
   }
 
