@@ -64,7 +64,7 @@ right = \absolute {
 
     <des'' ees'' aes'' des'''>2 <c'' ees'' aes'' c'''>4 ~ |
     4 <des'' des'''>4. <ees'' ees'''>8 |
-    <f'' aes'' des''' f'''>2 r4 |
+    <f'' f'''>2 r4 |
 
     q2 <ees'' aes'' des''' ees'''>4 ~ |
     4 <des'' des'''>4. <c'' c'''>8 |
@@ -93,7 +93,7 @@ right = \absolute {
     s2. |
 
     \repeat unfold 2 {
-      <bes' ces'' ees'' aes'' bes''>2 <aes' ces'' ees'' aes''>4 ~ |
+      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>4 ~ |
       4 <ges' ges''>2 |
       <f' f''>2 <ees' ees''>4 ~ |
       4 <f' f''>4 <ges' ges''> |
@@ -103,7 +103,7 @@ right = \absolute {
 
   \alternative {
     {
-      <bes' ces'' ees'' aes'' bes''>2 <aes' ces'' ees'' aes''>4 ~ |
+      <bes' ces'' ees'' bes''>2 <aes' ces'' ees'' aes''>4 ~ |
       2 <ges' ges''>4 |
       <des'' des'''>2-_ <f' f''>4 ~ |
       2 <ges' ges''>4 |
