@@ -67,7 +67,7 @@ right = \absolute {
     4 <des'' des'''>4. <ees'' ees'''>8 |
     <f'' f'''>2 r4 |
 
-    q2 <ees'' aes'' des''' ees'''>4 ~ |
+    <f'' aes'' des''' f'''>2 <ees'' aes'' des''' ees'''>4 ~ |
     4 <des'' des'''>4. <c'' c'''>8 |
     <bes' bes''>2 <aes' aes''>4 |
     <des'' des'''>2. |
@@ -137,12 +137,12 @@ right = \absolute {
   <des' ges' bes'> <ces' ees' aes'> <ces' des' ges'> |
 
   <aes ces' f'>2 <ges ces' ees'> <ges bes des'> |
-  <des ges bes>1. |
+  \clef "bass" <des ges bes>1. |
   <des ges aes>2. f |
 
-  <ges bes des' ges'>\arpeggio
+  <ges, bes, des ges>\arpeggio
   \cadenzaOn \tiny
-  %{\change Staff = "left"%} \stemDown \ottava 0 bes4 des' ees' ges'
+  %{\change Staff = "left"%} \stemDown \ottava 0 \clef "treble" bes4 des' ees' ges'
   %{\change Staff = "right"%} \stemUp bes' des'' bes''
   %{\change Staff = "left"%} \stemDown \ottava 2 ges'' aes'' des''' ges'''
   %{\change Staff = "right"%} \stemUp bes''' ees'''' ges'''' bes''''
