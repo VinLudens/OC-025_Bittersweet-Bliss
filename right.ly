@@ -105,7 +105,7 @@ right = \absolute {
     {
       <bes' ces'' ees'' aes'' bes''>2 <aes' ces'' ees'' aes''>4 ~ |
       2 <ges' ges''>4 |
-      <des'' des'''>2-. <f' f''>4 ~ |
+      <des'' des'''>2-_ <f' f''>4 ~ |
       2 <ges' ges''>4 |
     }
     {
