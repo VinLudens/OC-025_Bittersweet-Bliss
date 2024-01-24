@@ -8,6 +8,13 @@
 \addEdition dynamics
 \addEdition slurs
 
+\editionMod dynamics 1 0/4 music.Dynamics \mp
+
+\editionMod dynamics 5 0/4 music.Dynamics \<
+
+\editionMod dynamics 9 0/4 music.Dynamics \f
+
+\editionMod dynamics 10 1/4 music.Dynamics \mp
 \editionMod slurs 10 1/4 music.Voice.A \(
 
 \editionMod slurs 11 0/4 music.Voice.A \)
@@ -33,10 +40,11 @@
 
 \editionMod slurs 25 0/4 music.Voice.A \)
 
-\editionMod slurs 26 5/8 music.Voice.A \)
 \editionMod slurs 26 2/8 music.Voice.A \(
+\editionMod slurs 26 5/8 music.Voice.A \)
 \editionMod tweaks 26 2/8 music.Voice.A \shape #'((0 . 0) (0.5 . -0.3) (1 . -0.3) (2 . 0)) PhrasingSlur
 
+\editionMod dynamics 28 0/4 music.Dynamics \f
 \editionMod slurs 28 0/4 music.Voice.A \(
 
 \editionMod slurs 30 0/4 music.Voice.A \)
@@ -49,6 +57,15 @@
 
 \editionMod slurs 41 0/4 music.Voice.A \)
 
+\editionMod dynamics 42 0/4 music.Dynamics \fp
+
+\editionMod dynamics 46 0/4 music.Voice.A ^\mf
+
+\editionMod dynamics 50 0/4 music.Voice.A ^\mf
+
+\editionMod dynamics 54 0/4 music.Voice.A ^\mf
+
+\editionMod dynamics 58 0/4 music.Dynamics \f
 \editionMod slurs 58 0/4 music.Voice.A \(
 
 \editionMod slurs 63 5/4 music.Voice.A \)
@@ -69,8 +86,11 @@
 
 \editionMod slurs 69 2/2 music.Voice.A \)
 
+\editionMod dynamics 70 1/2 music.Dynamics \dim
 \editionMod slurs 70 1/2 music.Voice.A \(
 
 \editionMod tweaks 73 0/4 music.Voice.A \ottava 0
+
+\editionMod dynamics 77 0/4 music.Dynamics \!
 
 \editionMod slurs 79 0/2 music.Voice.A \)
