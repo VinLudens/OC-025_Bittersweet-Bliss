@@ -142,7 +142,7 @@ right = \absolute {
 
   <ges bes des' ges'>\arpeggio
   \cadenzaOn \tiny
-  %{\change Staff = "left"%} \stemDown \ottava 0 \clef "treble" bes4 des' ees' ges'
+  %{\change Staff = "left"%} \stemDown \ottava 0 bes4 des' ees' ges'
   %{\change Staff = "right"%} \stemUp bes' des'' bes''
   %{\change Staff = "left"%} \stemDown \ottava 2 ges'' aes'' des''' ges'''
   %{\change Staff = "right"%} \stemUp bes''' ees'''' ges'''' bes''''
