@@ -51,3 +51,15 @@
 \editionMod slurs 58 0/4 music.Voice.A \(
 
 \editionMod slurs 69 2/4 music.Voice.A \)
+
+\editionMod slurs 70 0/4 music.Voice.A \(
+\editionMod slurs 73 2/4 music.Voice.A \)
+\editionMod slurs 74 1/2 music.Voice.A \(
+\editionMod slurs 75 2/2 music.Voice.A \)
+\editionMod slurs 76 1/2 music.Voice.A \(
+\editionMod slurs 77 2/2 music.Voice.A \)
+\editionMod slurs 78 1/2 music.Voice.A \(
+\editionMod slurs 87 0/2 music.Voice.A \)
+
+\editionMod tweaks 76 0/4 music.Voice.A \ottava 1
+\editionMod tweaks 81 0/4 music.Voice.A \ottava 0

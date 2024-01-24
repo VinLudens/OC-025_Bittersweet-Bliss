@@ -119,7 +119,33 @@ left = \absolute {
   \time 6/4
 
 
-  <aes, aes>2 \change Staff = "right" \voiceTwo <ees' aes'> <des' ges'> | \change Staff = "left" \oneVoice
+  <aes, aes>2-> \change Staff = "right" \voiceTwo <ees' aes'> <des' ges'> | \change Staff = "left" \oneVoice
   <des des'> \change Staff = "right" \voiceTwo <des' f'> <ces' ees'> | \change Staff = "left" \oneVoice
+
+  \clef "treble" <aes aes'>2 \change Staff = "right" \voiceTwo <ees'' aes''> <des'' ges''> | \change Staff = "left" \oneVoice
+  <des' des''> \change Staff = "right" \voiceTwo <des'' f''> <ces'' ees''> | \change Staff = "left" \oneVoice
+
+  <aes aes'>2 \change Staff = "right" \voiceTwo <ees'' aes''> <des'' ges''> | \change Staff = "left" \oneVoice
+  <des' des''> \change Staff = "right" \voiceTwo <des'' f''> <ces'' ees''> | \change Staff = "left" \oneVoice
+
+  <aes aes'>2 <ges' ces''> <f' bes'> | \change Staff = "left" \oneVoice
+  \clef "bass" <des des'> \change Staff = "right" \voiceTwo <des' f'> <ces' ees'> | \change Staff = "left" \oneVoice
+
+  <aes, aes>2 <ges ces'> <f bes> | \change Staff = "left" \oneVoice
+  <des, des> <des f> <ces ees> | \change Staff = "left" \oneVoice
+
+  <aes,, aes,>2 <ges, ces> <f, bes,> | \change Staff = "left" \oneVoice
+  <des,, des,>1. |
+  des,1. |
+
+  \ottava -1 ges,,1.
+  \cadenzaOn
+  s
+  %
+  s
+  %
+  \cadenzaOff \partial 1024 s1024 |
+
+  \bar "|."
 
 }

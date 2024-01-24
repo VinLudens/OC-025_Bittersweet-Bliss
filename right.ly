@@ -122,4 +122,30 @@ right = \absolute {
   r2 <ces'' ees'' bes''> <ces'' ees'' aes''> |
   <aes' ces'' f''> <aes' ces'' ees''> <aes' ces'' des''> |
 
+  r2 <ces''' ees''' bes'''> <ces''' ees''' aes'''> |
+  <aes'' ces''' f'''> <aes'' ces''' ees'''> <aes'' ces''' des'''> |
+
+  r2 <e''' aes''' ees''''> <e''' aes''' des''''> |
+  <des''' ges''' bes'''> <ces''' ees''' aes'''> <ces''' des''' ges'''> |
+
+  <aes'' ces''' f'''>2 <ges'' ces''' ees'''> <ges'' bes'' des'''> |
+  <des'' ges'' bes''> <ces'' ees'' aes''> <ces'' des'' ges''> |
+
+  <aes' ces'' f''>2 <ges' ces'' ees''> <ges' bes' des''> |
+  <des' ges' bes'> <ces' ees' aes'> <ces' des' ges'> |
+
+  <aes ces' f'>2 <ges ces' ees'> <ges bes des'> |
+  <des ges bes>1. |
+  <des ges aes>2. f |
+
+  <ges bes des' ges'>\arpeggio
+  \cadenzaOn \tiny
+  %{\change Staff = "left"%} \stemDown \ottava 0 \clef "treble" bes4 des' ees' ges'
+  %{\change Staff = "right"%} \stemUp bes' des'' bes''
+  %{\change Staff = "left"%} \stemDown \ottava 2 ges'' aes'' des''' ges'''
+  %{\change Staff = "right"%} \stemUp bes''' ees'''' ges'''' bes''''
+  \cadenzaOff \partial 1024 s1024 |
+
+  \bar "|."
+
 }
